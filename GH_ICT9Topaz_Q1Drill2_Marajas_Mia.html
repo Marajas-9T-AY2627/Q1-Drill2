@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+        
+        background-color: rgb(240, 226, 158);
+    
+        
+        }
+
+        h1{
+            color: rgb(113, 92, 65);
+            text-align: center;
+
+       
+            
+        }
+        div {
+            border: 1px solid gray;
+            border-radius: 4px;
+            box-shadow: 0px 3px 10px 1px #000000;
+            padding: 10px;
+            background-color: rgb(197, 163, 106);
+            color: rgb(113, 92, 65);
+            }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        fieldset {
+            width: 90%;
+            align-self: center;
+        }
+
+        .review {
+            width: 90%;
+        }
+
+        .camera {
+            width: 250px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .submit {
+            width: 100%;
+            background-color: rgb(113, 92, 65);
+            color: beige;
+            display: block;
+            margin: 0 auto;
+        }
+       
+
+    
+    </style>
+</head>
+<body> 
+   <h1>Rate a Movie</h1> 
+     <center><p>Share your top pick movie</p></center>
+    <div>
+
+       <img src="movie icon.png" alt="movie icon" class="camera"> <br>
+      <form>
+      <input type="text" placeholder="Enter Movie Title">  <br>
+
+      <!-- Genres -->
+      <fieldset>
+        <legend>Genres  <i>(select all that applies)</i>:</legend>
+      
+        <input type="checkbox">
+        <label>Romance</label>
+
+        <input type="checkbox">
+        <label>Comedy </label>
+
+        <input type="checkbox">
+        <label>Drama </label>
+
+        <input type="checkbox">
+        <label> Action</label>
+
+        <input type="checkbox">
+        <label>Fantasy </label>
+
+        <input type="checkbox">
+        <label>Sci-fi </label>
+      </fieldset> <br>
+
+      <!-- Rating -->
+       <fieldset>
+        <legend>Rating:</legend>
+
+        <input type="radio" name="rating">
+        <label>⭐</label>
+
+         <input type="radio" name="rating">
+        <label>⭐⭐</label>
+
+         <input type="radio" name="rating">
+        <label>⭐⭐⭐</label>
+
+         <input type="radio" name="rating">
+        <label>⭐⭐⭐⭐</label>
+
+         <input type="radio"name="rating">
+        <label>⭐⭐⭐⭐⭐</label>
+
+        </fieldset> <br>
+
+        <!-- Write a Review -->
+           <form>
+    
+    <textarea class="review" cols="30" placeholder="Write a Review"></textarea>
+           </form> <br>
+
+           <input class="submit" type="submit" value="Submit Review" class="submit">
+    
+    </div>
+   <footer> 
+    <p class="footer">© 2026| Mia Ysabel V. Marajas| 9-Topaz | Q1 Drill 2 </p>
+    </footer>
+</body> 
+</html>
